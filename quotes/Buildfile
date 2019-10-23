@@ -1,1 +1,1 @@
-build: sh gradle build --refresh-dependencies
+build: sh gradlew build --refresh-dependencies
