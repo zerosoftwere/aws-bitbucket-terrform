@@ -1,0 +1,12 @@
+INSERT INTO quotes (quote, author) VALUES ('If you don''t have time to read, you don''t have the time (or the tools) to write. Simple as that.', 'Stephen King');
+INSERT INTO quotes (quote, author) VALUES ('You should write because you love the shape of stories and sentences and the creation of different words on a page. Writing comes from reading, and reading is the finest teacher of how to write.', 'Annie Proulx');
+INSERT INTO quotes (quote, author) VALUES ('Indeed, learning to write may be part of learning to read. For all I know, writing comes out of a superior devotion to reading.', 'Eudora Welty');
+INSERT INTO quotes (quote, author) VALUES ('Read, read, read. Read everything  —  trash, classics, good and bad, and see how they do it. Just like a carpenter who works as an apprentice and studies the master. Read! You''ll absorb it. Then write. If it''s good, you''ll find out. If it''s not, throw it out of the window.', 'William Faulkner');
+INSERT INTO quotes (quote, author) VALUES ('I kept always two books in my pocket: one to read, one to write in.', 'Robert Louis Stevenson');
+INSERT INTO quotes (quote, author) VALUES ('The Six Golden Rules of Writing: Read, read, read, and write, write, write.', 'Ernest Gaines');
+INSERT INTO quotes (quote, author) VALUES ('The greatest part of a writer’s time is spent in reading, in order to write; a man will turn over half a library to make one book.', 'Samuel Johnson');
+INSERT INTO quotes (quote, author) VALUES ('Read a thousand books, and your words will flow like a river.', 'Lisa See');
+INSERT INTO quotes (quote, author) VALUES ('One sure window into a person’s soul is his reading list.', 'Mary B. W. Tabor');
+INSERT INTO quotes (quote, author) VALUES ('If there''s a book that you want to read, but it hasn''t been written yet, then you must write it.', 'Toni Morrison');
+INSERT INTO quotes (quote, author) VALUES ('Everybody walks past a thousand story ideas every day. The good writers are the ones who see five or six of them. Most people don’t see any.', 'Orson Scott');
+INSERT INTO quotes (quote, author) VALUES ('Find a subject you care about and which you in your heart feel others should care about. It is this genuine caring, not your games with language, which will be the most compelling and seductive element in your style.', 'Stephen King');

@@ -1,0 +1,27 @@
+image: openjdk:8
+pipelines:
+  default:
+  - step:
+      name: Build and test
+      script:
+      - cd quotes && sh gradlew build
+  - step:
+      name: Compress to zip
+      script:
+      - apt-get update && apt-get install -y zip
+      - zip -r application.zip quotes
+      artifacts:
+      - application.zip
+  - step:
+      name: Deploy to development environment
+      deployment: Development
+      script:
+      - pipe: atlassian/aws-elasticbeanstalk-deploy:0.5.2
+        variables:
+          AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+          AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+          AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION}
+          APPLICATION_NAME: quotes-application
+          ENVIRONMENT_NAME: development
+          ZIP_FILE: application.zip
+          S3_BUCKET: xero-quotes-applicationment
