@@ -9,7 +9,7 @@ pipelines:
       name: Compress to zip
       script:
       - apt-get update && apt-get install -y zip
-      - zip -r application.zip quotes
+      - cd quotes && zip -r application.zip .
       artifacts:
       - application.zip
   - step:
