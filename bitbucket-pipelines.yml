@@ -24,4 +24,4 @@ pipelines:
           APPLICATION_NAME: quotes-application
           ENVIRONMENT_NAME: development
           ZIP_FILE: application.zip
-          S3_BUCKET: xero-quotes-applicationment
+          S3_BUCKET: xero-quotes-application
